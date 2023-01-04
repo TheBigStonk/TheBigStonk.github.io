@@ -26,39 +26,39 @@ title: Username Enumeration in Web Applications</p>
 - Brute Force: Most likely using a wordlist of commonly used passwords to check for low hanging fruit.
 - Phishing: Taking the domain and discovered usernames to produce a plausible looking password reset to capture creds that way.</p>
 <h3>Core Concepts</h3>
-<p><img alt="_config.yml" src="{{ site.baseurl }}/images/i_dont_exist.png" /></p>
+<p><img  src="{{ site.baseurl }}/images/i_dont_exist.png" /></p>
 <p>Testing for username enumeration using the Open Web Application Security Project (OWASP) under ID <em>WSTG-IDNT-04</em> is perscriptive in identifying this risk. The latest updated <em>WSTG-IDNT-04</em> can be found <a href="https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/03-Identity_Management_Testing/04-Testing_for_Account_Enumeration_and_Guessable_User_Account.md.">here</a></p>
 <h3>Examples</h3>
 <p>Let's use the PortSwigger Academy labs to illustrate the few examples of username enumeration.</p>
 <h6>1. Username enumeration via different responses:</h6>
 <p>We start off with a website around blogging, included is a homepage and a page to view your account.
-<img alt="_config.yml" src="{{ site.baseurl }}/../../images/username_enumerate_example1.png" /></p>
+<img  src="../images/username_enumerate_example1.png" /></p>
 <p>Clicking on the account gives us a login page with a username and password field. Let's just try to enter a random username password combination to ascertain what happened:
-<img alt="_config.yml" src="{{ site.baseurl }}/../../images/username_enumerate_example2.png" /></p>
+<img  src="../images/username_enumerate_example2.png" /></p>
 <p>Hold up... It says <em>Invalid username</em>... maybe we could run a username list through this in Burp Suites Intruder function to start testing different username combinations with the password as 'password'.</p>
 <p>Testing with a 8,894 size username list that comes default with Burp Suite. We note a lack of rate limiting with 475 attempts a minute on average possible, with which we are able to exhaust our list in 19 minutes.</p>
 <p>For the sake of time though we stopped the list at 2,000 and instead used the 101 size username wordlist provided with the lab.
-<img alt="_config.yml" src="{{ site.baseurl }}/../../images/username_enumerate_example3.png" />
+<img  src="../images/username_enumerate_example3.png" />
 As you can see, we sort the responses by length since a length of 3290 bytes seems to always return when <em>Invalid username</em> is used. When the <em>asterix</em> username is submitted however we get a returned 3292 byte length response. This is because as shown in the response instead of <em>Invalid username</em>, the response returned is <em>Incorrect password</em>.</p>
 <p>With a little bit more brute-forcing on the password side this time since we know the user, we successfully breach the users account. Although the username is the less sensitive of the two fields, it is still 1/2 the digital combination lock.
-<img alt="_config.yml" src="{{ site.baseurl }}/../../images/username_enumerate_example4.png" /> </p>
+<img  src="../images/username_enumerate_example4.png" /> </p>
 <h6>2. Username enumeration via response timing:</h6>
 <p>Now we will look at the application configured with a response timing user enumeration issue.
-<img alt="_config.yml" src="{{ site.baseurl }}/../../images/username_enumerate_example5.png" /> </p>
+<img  src="../images/username_enumerate_example5.png" /> </p>
 <p>As we can see, we have no verbose error messaging that indicates an incorrect username. Instead we are returned with <em>Invalid username or password.</em>. What we should do then since we are given a list of potential usernames for this lab is send these through the Burp Suite intruder again to ascertain if we can get anything out of the form through enumerating other factors of the response.
-<img alt="_config.yml" src="{{ site.baseurl }}/../../images/username_enumerate_example6.png" /> </p>
+<img  src="../images/username_enumerate_example6.png" /> </p>
 <p>Now we have an issue where we are shown that there is an issue around too many incorrect login attempts, and that we have to try again in 30 minutes. This will not do and we require a way to bypass this.</p>
 <p>This is where the <em>X-Forwarded-For</em> header comes into place. Further information can be found around the header <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For">here</a> however in a nutshell this is used to collect an IP address for ascertaining additional information about the user and perform additional actions such as seeing returning location specific content based on the IP address. Through enumeration it was discovered that the application is using IP addressing to block too many requests, and since the application accepts the <em>X-Forwarded-For header</em> we change the IP around to bypass this protection.
-<img alt="_config.yml" src="{{ site.baseurl }}/../../images/username_enumerate_example7.png" />
-<img alt="_config.yml" src="{{ site.baseurl }}/../../images/username_enumerate_example8.png" />  </p>
+<img  src="../images/username_enumerate_example7.png" />
+<img  src="../images/username_enumerate_example8.png" />  </p>
 <p>Now that we have a bypass, let's do Intruder again. This time we should will include our new header and utilise <em>Pitchfork</em> as with the same username list but with randomly generated IP addresses courtesy of <a href="https://www.browserling.com/tools/random-ip">https://www.browserling.com/tools/random-ip</a>. Also note that we set the password to around 100 characters in order to potentially add computation time to see if this changes the responses potentially enough to enumerated between active and inactive usernames.
-<img alt="_config.yml" src="{{ site.baseurl }}/../../images/username_enumerate_example9.png" />  </p>
+<img  src="../images/username_enumerate_example9.png" />  </p>
 <p>So as we can see, user <em>azureuser</em> takes longer than the rest to return at the 900-ish mark. Note as well that this is confirmed through a few attempts in repeater. Now that we have a valid user we repurpose our bypass enumeration user enumeration tab to bruteforce the password.
-<img alt="_config.yml" src="{{ site.baseurl }}/../../images/username_enumerate_example10.png" />  </p>
+<img  src="../images/username_enumerate_example10.png" />  </p>
 <p>This was a combination of response timing and length with bypass, but shows how user enumeration can get a bit more complex than what one might initially expect.</p>
 <h3>Prevention</h3>
 <p>Now for prevention. The following four steps should in combination or as a complete set for most applications, be seen as complete and adequate prevention.</p>
-<p>![_config.yml]({{ site.baseurl }}/../../images/remediations_username_enumeration.png</p>
+<p>![_config.yml](../images/remediations_username_enumeration.png</p>
 <h6>1. Implement MultiFactor-Authentication (MFA)</h6>
 <p>This is always a good idea to enable MFA as both a user of the application, and as a developer implementing security protections in order to better protect your customers and improve the overall security of your platform. </p>
 <p>MFA does not outright prevent username/email enumeration, but what it does do is provide defence in depth against further compromise such as where a malicious threat actor may perform enumeration and password brute-force attacks to attempt to gain access to a particular account. MFA is especially important for administrator account, although potentially you could leave one without MFA for a "break-glass" event (note that Availability needs to be weighed up against Confidentiality in this case).</p>

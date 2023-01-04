@@ -28,7 +28,7 @@ title: OWASP API Top 10 Build and Break Series - 01 - Broken Object Level Author
 <li>Changing the request from <code>api.bigbank.com/5489/balance</code> to <code>api.bigbank.com/5490/balance</code> ends up validating against our token, and giving us another customers balance!</li>
 </ol>
 <p>For the visually inclined, see below:</p>
-<p><img alt="_config.yml" src="{{ site.baseurl }}/../../images/owasp_api1_example.jpg" /></p>
+<p><img  src="../images/owasp_api1_example.jpg" /></p>
 <h2>Setup</h2>
 <p>Throughout this series we will be building an API in C# with the ASP.NET Core 6.0 framework. We are running with this over the popular Express API in JS and simple FastAPI in Python due to enterprise IT favoring .NET and the extensibility the .NET MVC gives up for the extension of the API as we progress throughout the OWASP API Top 10. For more information on how to get started building an ASP.NET Web API please visit <a href="https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-7.0&amp;tabs=visual-studio">Microsoft\'s official documentation</a>. </p>
 <p>Start by opening up a copy of Visual Studio 2022 and creating a new <strong>ASP.NET Core Web API</strong> template. Ensure you are at the place where you have a weather controllers setup. We are going to add a model for our account data object which will look like such:
@@ -59,7 +59,7 @@ using Microsoft.EntityFrameworkCore;</p>
 <p>}
 ```
 Moving on we set an in an InMemoryDB and create a scaffolded controller using Visual Studio. If you have done everything correct it should all fall into place.</p>
-<p><img alt="_config.yml" src="{{ site.baseurl }}/../../images/owasp_api1_entity.jpg" /></p>
+<p><img  src="../images/owasp_api1_entity.jpg" /></p>
 <p>As this tutorial is going on, we won't be bothering too hard with the authentication of the API at this stage, however we will just pretend auth happened, and that the header has the bearer token value of "wumbo" in it:
 ```csharp
         [HttpGet("{id}/account")]
@@ -91,13 +91,13 @@ At this point we should have two endpoints that we will use to break the applica
 <p>Okay so we have a POST endpoint, let's add two users being:
 - 5489, Max, 15
 - 5490, John, 955483</p>
-<p><img alt="_config.yml" src="{{ site.baseurl }}/../../images/owasp_api1_add_endpoints.jpg" /></p>
+<p><img  src="../images/owasp_api1_add_endpoints.jpg" /></p>
 <p>At this point, let's just pretend we are looking at the API for the web application for the bank. When we log in we notice that we get a page displaying our information and that a request was made to <code>api.bigbank.com/bank/5489/account</code> to get our info for Max. </p>
 <p>Being the discerning tester, we say <strong>Why don't we directly try accessing an incremental ID via this API to check the auth?</strong>. Doing this we come across this response by the API:</p>
-<p><img alt="_config.yml" src="{{ site.baseurl }}/../../images/owasp_api1_unauth.jpg" /></p>
+<p><img  src="../images/owasp_api1_unauth.jpg" /></p>
 <p>However, let's not just blindly trust this message, there may be Object Level Authorisation issues at play here, and that we are just missing authentication parameters (had this happen in an internal security assessment before, so it's worth noting Devs miss auth error messages up all the time, if the message isn't generic to begin with). </p>
 <p>Intercepting a legitimate request, we notice that we were missing the auth header (in our example 'Wumbo'), adding this in we find that if you're authenticated then there is broken authorisation on pulling account details.</p>
-<p><img alt="_config.yml" src="{{ site.baseurl }}/../../images/owasp_api1_whoops.jpg" /></p>
+<p><img  src="../images/owasp_api1_whoops.jpg" /></p>
 <p>This is less likely to happen where you are using a tool like Burpsuite where you intercept and modify a legitimate request that already contains all the header information required, however it does happen with direct API testing without an application and without legitimate requests to springboard off. My general advice is:
 - Headers are important to modify as well as payloads when testing APIs;
 - Broken Object Level Authorisation is still broken even if you're using hard to guess UUIDs, that's just security through obscurity; and
