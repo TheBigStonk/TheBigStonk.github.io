@@ -34,13 +34,13 @@
 </ul>
 
 <a>So let's spin it up:</a>
-
+<br>
 <img src="../images/keycloak_spinup.png"/>
-
+<br>
 <a>This build up the IAM and drops a web server locally on port 8080 we can visit the keycloak panel to manage the auth setup:</a>
-
+<br>
 <img src="../images/keycloak_users.png"/>
-
+<br>
 <a>From here we'll:</a>
 <ul>
     <li>Create a Realm</li>
@@ -49,15 +49,15 @@
 </ul>
 
 <a>You can find how to do this on https://www.keycloak.org/getting-started/getting-started-docker however for the most part I found it simple enough.</a>
-
+<br>
 <img src="../images/keycloak_oauth.png"/>
-
+<br>
 <a>The URL redirects from that to our OpenID Connect between the https://www.keycloak.org/app/ test app and our local 8080. With a Authorization Code Grant with PKCE (Proof Key for Code Exchange) and a couple other things like nonce and state set, this is definitely well implemented and something I'd general call secure when set up properly with a few tweaks and swapping `start-dev` out for `start`</a>
-
+<br>
 <img src="../images/keycloak_alldone.png"/>
-
+<br>
 <a>Not least of it we have RBAC through groups added and managed in Keycloak, ability to swap out algorithms, add SSO (both user defined and social), handle multiple realms and implement auditing of user sessions:</a>
-
+<br>
 <img src="../images/keycloak_useraudit.png"/>
-
+<br>
 <a>Overall my thoughts are that this gets two ticks from me. I started this research less than an hour ago, and having fulling build up a development IAM server and had the time to blog about this, I am super excited to see how this amazing open source project goes.</a>
