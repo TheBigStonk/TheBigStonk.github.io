@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maxwell Francis</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Maxwell Francis</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Dec 2025 23:24:32 +1300</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 29 Dec 2025 23:24:32 +1300</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h1 id=&#34;max-francis--cybersecurity&#34;&gt;Max Francis � Cybersecurity&lt;/h1&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Hey there!&lt;/p&gt;&#xA;&lt;p&gt;My name is &lt;strong&gt;Maxwell Francis&lt;/strong&gt; and I am a cybersecurity consultant who specialises in helping developers and niche security topics such as &lt;strong&gt;Solidity smart contract auditing&lt;/strong&gt; and &lt;strong&gt;API security best practices&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;My primary industry I am most comfortable working in is &lt;strong&gt;banking and financial institutions&lt;/strong&gt;, including fintechs.&lt;/p&gt;&#xA;&lt;h2 id=&#34;areas-of-research-i-am-keen-to-explore&#34;&gt;Areas of research I am keen to explore&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Web application security testing&lt;/li&gt;&#xA;&lt;li&gt;Threat modelling&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;find-me-online&#34;&gt;Find me online&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://tryhackme.com/p/TheBigStonk&#34;&gt;TryHackMe&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://app.hackthebox.com/profile/904436&#34;&gt;Hack The Box&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/maxwell-francis/&#34;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/TheBigStonk&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Simple Is Better</title>
+      <link>http://localhost:1313/posts/simple-is-better/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +1300</pubDate>
+      <guid>http://localhost:1313/posts/simple-is-better/</guid>
+      <description>&lt;p&gt;Welcome everyone. I would like to introduce this website as the new and improved blog for 2022 before the end of the year.&lt;/p&gt;&#xA;&lt;p&gt;Many would argue this looks like something out of 1997 — and they would be absolutely right. What I’ve built is a blog compiled via &lt;strong&gt;static site generation&lt;/strong&gt;, deployed to &lt;strong&gt;GitHub Pages&lt;/strong&gt;, and costing me exactly &lt;strong&gt;$0&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;What this is &lt;em&gt;not&lt;/em&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A convoluted WordPress codebase&lt;/li&gt;&#xA;&lt;li&gt;A site-in-a-box wrapper like Wix or Squarespace&lt;/li&gt;&#xA;&lt;li&gt;JavaScript-heavy or CSS-driven&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;There is no JavaScript. There is no CSS. There may occasionally be images — but only when words aren’t enough.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

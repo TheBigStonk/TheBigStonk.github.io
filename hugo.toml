@@ -1,0 +1,16 @@
+baseURL = 'https://blog.maxfrancis.me/'
+languageCode = 'en-us'
+title = 'Maxwell Francis'
+theme = "archie"
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+[[menu.main]]
+name = "Blog"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 2

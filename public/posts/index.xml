@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Maxwell Francis</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Maxwell Francis</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Dec 2022 00:00:00 +1300</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simple Is Better</title>
+      <link>http://localhost:1313/posts/simple-is-better/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +1300</pubDate>
+      <guid>http://localhost:1313/posts/simple-is-better/</guid>
+      <description>&lt;h1 id=&#34;max-francis--cybersecurity&#34;&gt;Max Francis — Cybersecurity&lt;/h1&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;simple-is-better&#34;&gt;&lt;em&gt;Simple is Better&lt;/em&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;1 December 2022&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Welcome everyone. I would like to introduce this website as the new and improved blog for 2022 before the end of the year.&lt;/p&gt;&#xA;&lt;p&gt;Many would argue this looks like something out of 1997 — and they would be absolutely right. What I’ve built is a blog compiled via &lt;strong&gt;static site generation&lt;/strong&gt;, deployed to &lt;strong&gt;GitHub Pages&lt;/strong&gt;, and costing me exactly &lt;strong&gt;$0&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
