@@ -1,6 +1,7 @@
 baseURL = 'https://blog.maxfrancis.me/'
 languageCode = 'en-us'
 title = 'Maxwell Francis'
+themesDir = 'themes'
 theme = "archie"
 [caches]
   [caches.images]
