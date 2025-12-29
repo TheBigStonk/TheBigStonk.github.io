@@ -8,15 +8,20 @@ title = 'About'
 
 Hey there!
 
-My name is **Maxwell Francis** and I am a cybersecurity consultant who specialises in helping developers and niche security topics such as **Solidity smart contract auditing** and **API security best practices**.
-
-My primary industry I am most comfortable working in is **banking and financial institutions**, including fintechs.
+My name is **Maxwell Francis** and I am a Senior Application Security Engineer that specialising in Web Application Security Testing, threat modelling, and exploring niche topics.
 
 ## Areas of research I am keen to explore
 - Web application security testing  
-- Threat modelling  
+- DICOM security
+- Anything that would make a small but meaningful contribution to the security academic literature corpus
+
+## Niche interests
+- Wargaming and scale modelling
+- Military history and strategy
+- Political philosophy
 
 ## Find me online
+- [ResearchGate](https://www.researchgate.net/profile/Maxwell-Francis)
 - [TryHackMe](https://tryhackme.com/p/TheBigStonk)
 - [Hack The Box](https://app.hackthebox.com/profile/904436)
 - [LinkedIn](https://www.linkedin.com/in/maxwell-francis/)
