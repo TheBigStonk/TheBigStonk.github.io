@@ -4,8 +4,6 @@ draft = false
 title = 'About'
 +++
 
-# Max Francis — Cybersecurity
-
 ---
 
 Hey there!
