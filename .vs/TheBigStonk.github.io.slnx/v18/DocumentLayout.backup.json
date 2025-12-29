@@ -3,8 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\maxof\\source\\repos\\TheBigStonk.github.io\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxof\\source\\repos\\TheBigStonk.github.io\\posts\\2025-08-20-Understanding-Historical-Trends-of-LEGO-and-Modularity-Through-Data-Analytics.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:posts\\2025-08-20-Understanding-Historical-Trends-of-LEGO-and-Modularity-Through-Data-Analytics.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxof\\source\\repos\\TheBigStonk.github.io\\content\\posts\\simple-is-better.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:content\\posts\\simple-is-better.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxof\\source\\repos\\TheBigStonk.github.io\\posts-archived\\simple_is_better.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:posts-archived\\simple_is_better.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxof\\source\\repos\\TheBigStonk.github.io\\themes\\archie\\layouts\\partials\\footer.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:themes\\archie\\layouts\\partials\\footer.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxof\\source\\repos\\TheBigStonk.github.io\\themes\\archie\\layouts\\index.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:themes\\archie\\layouts\\index.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxof\\source\\repos\\TheBigStonk.github.io\\themes\\archie\\theme.toml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:themes\\archie\\theme.toml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxof\\source\\repos\\TheBigStonk.github.io\\content\\about.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:content\\about.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxof\\source\\repos\\TheBigStonk.github.io\\about.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:about.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxof\\source\\repos\\TheBigStonk.github.io\\posts-archived\\2025-08-20-Understanding-Historical-Trends-of-LEGO-and-Modularity-Through-Data-Analytics.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:posts-archived\\2025-08-20-Understanding-Historical-Trends-of-LEGO-and-Modularity-Through-Data-Analytics.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxof\\source\\repos\\TheBigStonk.github.io\\.github\\workflows\\hugo.yaml||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.github\\workflows\\hugo.yaml||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxof\\source\\repos\\TheBigStonk.github.io\\hugo.toml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hugo.toml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxof\\source\\repos\\TheBigStonk.github.io\\public\\page\\1\\index.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:public\\page\\1\\index.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,12 +59,146 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "simple-is-better.md",
+              "DocumentMoniker": "C:\\Users\\maxof\\source\\repos\\TheBigStonk.github.io\\content\\posts\\simple-is-better.md",
+              "RelativeDocumentMoniker": "content\\posts\\simple-is-better.md",
+              "ToolTip": "C:\\Users\\maxof\\source\\repos\\TheBigStonk.github.io\\content\\posts\\simple-is-better.md",
+              "RelativeToolTip": "content\\posts\\simple-is-better.md",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAAAGkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-12-29T10:32:49.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "simple_is_better.html",
+              "DocumentMoniker": "C:\\Users\\maxof\\source\\repos\\TheBigStonk.github.io\\posts-archived\\simple_is_better.html",
+              "RelativeDocumentMoniker": "posts-archived\\simple_is_better.html",
+              "ToolTip": "C:\\Users\\maxof\\source\\repos\\TheBigStonk.github.io\\posts-archived\\simple_is_better.html",
+              "RelativeToolTip": "posts-archived\\simple_is_better.html",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAQwGEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-12-29T10:32:22.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "footer.html",
+              "DocumentMoniker": "C:\\Users\\maxof\\source\\repos\\TheBigStonk.github.io\\themes\\archie\\layouts\\partials\\footer.html",
+              "RelativeDocumentMoniker": "themes\\archie\\layouts\\partials\\footer.html",
+              "ToolTip": "C:\\Users\\maxof\\source\\repos\\TheBigStonk.github.io\\themes\\archie\\layouts\\partials\\footer.html",
+              "RelativeToolTip": "themes\\archie\\layouts\\partials\\footer.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-12-29T10:29:41.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\maxof\\source\\repos\\TheBigStonk.github.io\\themes\\archie\\layouts\\index.html",
+              "RelativeDocumentMoniker": "themes\\archie\\layouts\\index.html",
+              "ToolTip": "C:\\Users\\maxof\\source\\repos\\TheBigStonk.github.io\\themes\\archie\\layouts\\index.html",
+              "RelativeToolTip": "themes\\archie\\layouts\\index.html",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-12-29T10:29:34.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "theme.toml",
+              "DocumentMoniker": "C:\\Users\\maxof\\source\\repos\\TheBigStonk.github.io\\themes\\archie\\theme.toml",
+              "RelativeDocumentMoniker": "themes\\archie\\theme.toml",
+              "ToolTip": "C:\\Users\\maxof\\source\\repos\\TheBigStonk.github.io\\themes\\archie\\theme.toml",
+              "RelativeToolTip": "themes\\archie\\theme.toml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-29T10:28:55.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\maxof\\source\\repos\\TheBigStonk.github.io\\public\\page\\1\\index.html",
+              "RelativeDocumentMoniker": "public\\page\\1\\index.html",
+              "ToolTip": "C:\\Users\\maxof\\source\\repos\\TheBigStonk.github.io\\public\\page\\1\\index.html",
+              "RelativeToolTip": "public\\page\\1\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-12-29T10:27:30.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "about.html",
+              "DocumentMoniker": "C:\\Users\\maxof\\source\\repos\\TheBigStonk.github.io\\about.html",
+              "RelativeDocumentMoniker": "about.html",
+              "ToolTip": "C:\\Users\\maxof\\source\\repos\\TheBigStonk.github.io\\about.html",
+              "RelativeToolTip": "about.html",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-12-29T10:24:43.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "about.md",
+              "DocumentMoniker": "C:\\Users\\maxof\\source\\repos\\TheBigStonk.github.io\\content\\about.md",
+              "RelativeDocumentMoniker": "content\\about.md",
+              "ToolTip": "C:\\Users\\maxof\\source\\repos\\TheBigStonk.github.io\\content\\about.md",
+              "RelativeToolTip": "content\\about.md",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-12-29T10:24:38.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "hugo.yaml",
+              "DocumentMoniker": "C:\\Users\\maxof\\source\\repos\\TheBigStonk.github.io\\.github\\workflows\\hugo.yaml",
+              "RelativeDocumentMoniker": ".github\\workflows\\hugo.yaml",
+              "ToolTip": "C:\\Users\\maxof\\source\\repos\\TheBigStonk.github.io\\.github\\workflows\\hugo.yaml",
+              "RelativeToolTip": ".github\\workflows\\hugo.yaml",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAQwGkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-12-29T10:21:20.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "hugo.toml",
+              "DocumentMoniker": "C:\\Users\\maxof\\source\\repos\\TheBigStonk.github.io\\hugo.toml",
+              "RelativeDocumentMoniker": "hugo.toml",
+              "ToolTip": "C:\\Users\\maxof\\source\\repos\\TheBigStonk.github.io\\hugo.toml",
+              "RelativeToolTip": "hugo.toml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-29T10:19:46.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "2025-08-20-Understanding-Historical-Trends-of-LEGO-and-Modularity-Through-Data-Analytics.html",
-              "DocumentMoniker": "C:\\Users\\maxof\\source\\repos\\TheBigStonk.github.io\\posts\\2025-08-20-Understanding-Historical-Trends-of-LEGO-and-Modularity-Through-Data-Analytics.html",
-              "RelativeDocumentMoniker": "posts\\2025-08-20-Understanding-Historical-Trends-of-LEGO-and-Modularity-Through-Data-Analytics.html",
-              "ToolTip": "C:\\Users\\maxof\\source\\repos\\TheBigStonk.github.io\\posts\\2025-08-20-Understanding-Historical-Trends-of-LEGO-and-Modularity-Through-Data-Analytics.html",
-              "RelativeToolTip": "posts\\2025-08-20-Understanding-Historical-Trends-of-LEGO-and-Modularity-Through-Data-Analytics.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAmAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\maxof\\source\\repos\\TheBigStonk.github.io\\posts-archived\\2025-08-20-Understanding-Historical-Trends-of-LEGO-and-Modularity-Through-Data-Analytics.html",
+              "RelativeDocumentMoniker": "posts-archived\\2025-08-20-Understanding-Historical-Trends-of-LEGO-and-Modularity-Through-Data-Analytics.html",
+              "ToolTip": "C:\\Users\\maxof\\source\\repos\\TheBigStonk.github.io\\posts-archived\\2025-08-20-Understanding-Historical-Trends-of-LEGO-and-Modularity-Through-Data-Analytics.html",
+              "RelativeToolTip": "posts-archived\\2025-08-20-Understanding-Historical-Trends-of-LEGO-and-Modularity-Through-Data-Analytics.html",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-12-29T09:58:53.898Z",
               "EditorCaption": ""

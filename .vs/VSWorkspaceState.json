@@ -3,14 +3,12 @@
     "",
     "\\content",
     "\\content\\posts",
-    "\\images",
-    "\\posts-archived",
-    "\\static",
+    "\\themes",
     "\\themes\\archie",
     "\\themes\\archie\\layouts",
     "\\themes\\archie\\layouts\\partials",
     "\\themes\\archie\\static"
   ],
-  "SelectedNode": "\\posts-archived",
+  "SelectedNode": "\\themes\\archie\\layouts\\partials\\footer.html",
   "PreviewInSolutionExplorer": false
 }
