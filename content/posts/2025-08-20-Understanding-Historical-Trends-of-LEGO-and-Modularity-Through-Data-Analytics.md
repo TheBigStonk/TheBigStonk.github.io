@@ -1,14 +1,8 @@
 +++
-title = "Untitled"
+title = "Understanding Historical Trends of LEGO and Modularity Through Data Analytics"
 date = "2025-08-20T00:00:00+13:00"
 draft = false
 +++
-
-# 
-
----
-
----
 
 ## Understanding Historical Trends of LEGO and Modularity Through Data Analytics
 ### 23rd August 2025
@@ -25,7 +19,7 @@ LEGO is a toy company founded in 1932 that has gone through many changes as a mo
 Sadly, I believe this is what LEGO used to stand for. My hypothesis statement is that**LEGO is less modular and instead are designed more for kitsets/model creation**. I will be testing this hypothesis through collecting data across data platforms and centralised datasets and then move on to modelling trends around sets and pricing for Lego with help from PowerBI to provide justification to my hypothesis.
 
 ### Phase 1/4 – Getting the Data for Historical Lego Set Information
-We initially have to know that we have the data to justify the time investment for this project, we begin by checking Kaggle.com, a community platform for analysts and data appreciators alike. We begin this by checking for Lego and find[https://www.kaggle.com/datasets/rtatman/lego-database](https://www.kaggle.com/datasets/rtatman/lego-database)which has 453 upvotes and a whopping 39.3k downloads. This is perfect and has a number of things such as:
+We initially have to know that we have the data to justify the time investment for this project, we begin by checking Kaggle.com, a community platform for analysts and data appreciators alike. We begin this by checking for Lego and find [https://www.kaggle.com/datasets/rtatman/lego-database](https://www.kaggle.com/datasets/rtatman/lego-database) which has 453 upvotes and a whopping 39.3k downloads. This is perfect and has a number of things such as:
 
 - Parts > Sets > Thems to map which sets have which parts and set individual counts and what not.
 - When did certain set composition trends instigate and what this would tell us about Lego as a medium?
@@ -39,7 +33,7 @@ We initially have to know that we have the data to justify the time investment f
 
 This seemed great until the eagle eyed of you would notice that this was current as of July 2017. This meant that our data would be missing the 8 most recent years of business which would be nothing short of insufficient data. As suggested by the author, we need to go to the Rebrickable API.
 
-Funnily enough, I think Rebrickable themselves noticed people doing large API pulls and this affecting their systems, so by any means we have at[https://rebrickable.com/downloads/](https://rebrickable.com/downloads/)the ability to download the whole LEGO catalog database to download with this being updated via daily pulls, saving time to work with the API and provision a key. The schema for the set is as such:
+Funnily enough, I think Rebrickable themselves noticed people doing large API pulls and this affecting their systems, so by any means we have at [https://rebrickable.com/downloads/](https://rebrickable.com/downloads/) the ability to download the whole LEGO catalog database to download with this being updated via daily pulls, saving time to work with the API and provision a key. The schema for the set is as such:
 
 ![](/images/rebrickable_schema.png)
 
@@ -47,13 +41,13 @@ Funnily enough all of this information that Rebrickable has accounts to a total 
 
 - A total of 25,477 sets
 - Publishing of sets between the years of 1949 to 2025 with a total of 76 years of data
-- A total of 15,924 minifigures, with a personal favourite of mine being[LEGO Minifigure - Mr. Shrimps](https://cdn.rebrickable.com/media/sets/fig-013835.jpg)
+- A total of 15,924 minifigures, with a personal favourite of mine being [LEGO Minifigure - Mr. Shrimps](https://cdn.rebrickable.com/media/sets/fig-013835.jpg)
 There are some slight inconsistencies, such as the date of four separate sets posted as being released in the future in 2026, and duplicate entries, however this is a >0.01% issue and across the board, the Rebrickable’s service reigns supreme for our selected usecase.
 
 ### Phase 2/4 – Installing PowerBI and Doing the Initial Setup
 Now that we have the data, we need to visualise and make sense of it. There are of course other means of analysis we can perform from structured data queries, a living documentation through a Python Jupyter notebook, or even a few excel formulas.
 
-We’ll be using PowerBI to do this. You can download a local copy of PowerBI from[Microsoft Power BI Desktop Download (v2.146.1026.0, published 8/19/2025)](https://www.microsoft.com/en-us/download/details.aspx?id=58494)and after that, once you log in with a Microsoft account.
+We’ll be using PowerBI to do this. You can download a local copy of PowerBI from [Microsoft Power BI Desktop Download (v2.146.1026.0, published 8/19/2025)](https://www.microsoft.com/en-us/download/details.aspx?id=58494) and after that, once you log in with a Microsoft account.
 
 So now you'll have something like this:
 
@@ -74,11 +68,9 @@ The model view should be a carbon copy ported over to PowerBI with the schema of
 It should be noted that the schema autosuggestion feature can be useful for this, however I’d be careful to fully rely on this due to the part identifiers and general being incorrectly set to certain cardinalities by PowerBI. We also need to attempt to showcase this data, we’ll be doing two test graphs being:
 
 - Trending stacked graph of number of unique sets released by year
-
 ![](/images/test_graph1.png)
 
 - Top 10 table of sets by largest count of pieces
-
 ![](/images/test_graph2.png)
 
 With both the data to manipulate, and the mechanism to achieve this through visualisation, we now move onto constructing a dashboard of statistics to understand the nature of LEGO and how it is evolving.
@@ -90,11 +82,7 @@ Firstly, considering that what the average number of pieces in a set each year c
 
 ![](/images/graph1.png)
 
-For understanding unique distinctive parts by set for year on year to track if this goes up or down. We will be adding a line graph with this information requiring a combination of data tables. To assist with this we start with the DAX query, which will take a calculation of distinct part numbers by the inventory parts set and use the relationship of set numbers in sets to set numbers in the LEGO inventory, using the query below:`CALCULATE (
-    DISTINCTCOUNT ( inventory_parts[part_num] ),
-    USERELATIONSHIP ( sets[set_num], inventories[set_num] )
-)
-`
+For understanding unique distinctive parts by set for year on year to track if this goes up or down. We will be adding a line graph with this information requiring a combination of data tables. To assist with this we start with the DAX query, which will take a calculation of distinct part numbers by the inventory parts set and use the relationship of set numbers in sets to set numbers in the LEGO inventory, using the query below:`CALCULATE ( DISTINCTCOUNT ( inventory_parts [part_num] ), USERELATIONSHIP ( sets [set_num], inventories [set_num] ) )`
 
 And are treated with a line chart encapsulating the total number of unique parts by year on year:
 
@@ -126,8 +114,7 @@ You can actually drill into any part of the data by clicking a theme/section/yea
 
 As part of my analysis before drilling into my final opinion, I produced the following insights about LEGO to help either disprove or prove my hypothesis statement, these are:
 
-- For every LEGO set that is released, an average of 2.26 unique parts is introduced into the LEGO ecosystem.
-    Comparative to the 164.82 average number of pieces per set, this showcases strong modularity and reuse of existing pieces.
+- For every LEGO set that is released, an average of 2.26 unique parts is introduced into the LEGO ecosystem. Comparative to the 164.82 average number of pieces per set, this showcases strong modularity and reuse of existing pieces.
 - We see the trend of average number of parts per set growing consistently (doubling from 2015 to 2025) over the past 10 years with:
 
 - 2015 having a 147.12 average part count per set
@@ -143,7 +130,6 @@ As part of my analysis before drilling into my final opinion, I produced the fol
 - 2025 having a 294.90 average part count per set
 
 - When removing the filter on the donut chart for LEGO themes we notice that there is a large spread of themes with the most prominent theme (LEGO Star Wars) only taking 3.99% of total share of the LEGO ecosystem. Most themes were released from 1999 onwards (i.e., Brickheadz in 2016, Star Wars in 1999, Mario in 2020, Harry Potter in 2001, keychains in 2001, and other misc bags and merch in 2015)
-
 ![](/images/theme_explore.png)
 
 Sadly, the distinct number of unique pieces metric is static due to not being mapped to release date or set (i.e. we don’t have the data to state when a unique part was introduced, only that it exists currently).
