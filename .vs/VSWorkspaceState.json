@@ -1,14 +1,15 @@
 {
   "ExpandedNodes": [
     "",
+    "\\.github",
+    "\\.github\\workflows",
     "\\content",
     "\\content\\posts",
-    "\\themes",
     "\\themes\\archie",
     "\\themes\\archie\\layouts",
     "\\themes\\archie\\layouts\\partials",
     "\\themes\\archie\\static"
   ],
-  "SelectedNode": "\\themes\\archie\\layouts\\partials\\footer.html",
+  "SelectedNode": "\\content\\about.md",
   "PreviewInSolutionExplorer": false
 }
