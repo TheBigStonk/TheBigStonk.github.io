@@ -4,10 +4,6 @@ date = "2023-11-20T00:00:00+13:00"
 draft = false
 +++
 
-## A Crash Course on Web Security for The Beginner
-### 20th November 2023
-
-### Introduction
 Security is hard for those that do it, and even more so for those that are looking to make a start in breaking and defending systems for the good of themselves and others. There are a ton of resources online about how to generically break into cybersecurity, however I wanted to switch it up and write a brief essay around getting into web application security! With this getting right into DeTaIlS
 
 Being the critical thinker you are, I bet you are asking*"Well, why should I follow such a specific area of cybersecurity?"*. That's a great question, and you should feel great for asking such a question. My reasons in response are:

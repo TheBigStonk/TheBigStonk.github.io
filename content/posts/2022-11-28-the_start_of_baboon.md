@@ -4,7 +4,6 @@ date = "2022-11-28T00:00:00+13:00"
 draft = false
 +++
 
-##
 Welcome to the start of Baboon. I created Baboon due to my use of Github pages for blogging moving to a use of Jekyll, then Jekyll-Now before having to go down the rabbit hole of customising Jekyll before breaking the whole thing to which I ended up throwing my hands in the air and going. Stuff it, I'll build my own generator and then use that for a blogging tool to publish blog.maxfrancis.me on. If you are reading this post from there, I was successful (yay), and if you didn't, then you're probably just reading a random Markdown file committed to GitHub (go out and touch some grass).
 
 What I wanted from my tool were the following properties:

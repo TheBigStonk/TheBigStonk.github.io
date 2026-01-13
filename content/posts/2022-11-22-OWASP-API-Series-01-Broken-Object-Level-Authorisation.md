@@ -6,7 +6,6 @@ draft = false
 
 Welcome to the following series showing you all how to build an intentionally vulnerable API. The goal of this experiment is to teach you, the discerning engineer how to identify vulnerabilities in APIs. I believe that if you can build your own vulnerable version of something, you are more knowledgeable in breaking it (just ask an architect how to breach the castle they designed 🏰). Once you get good at doing this. You can then move on to testing other peoples APIs 🤘
 
-## Summary of OWASP API1: Broken Object Level Authorization
 Broken Object Level Authorisation in a nutshell is where an attacker is able to manipulate the query of an API in order to access an object without the API performing additional authorisation checks regarding the validity of the data. This is similar to Insecure Data Object Reference (IDOR) and in many cases this is one in the same, however differences can arise in the event of something like state of the user in the API not being tracked, and potentially accessing information that is referenced correctly, but not via the users current position within the confines of the system. Broken Object Level Authorization (sometimes called BOLA) can be many different types of things and a broken authorisation catch all for APIs, so it is no surprise that this is rated as the top.
 
 ## Example: Big Bank Account Balances

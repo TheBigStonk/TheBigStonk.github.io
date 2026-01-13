@@ -4,7 +4,6 @@ date = "2021-10-22T00:00:00+13:00"
 draft = false
 +++
 
-### Introduction
 Username enumeration is very much undervalued as a risk. For most people they see this as little more than knowing a handle or a profile name.
 
 >

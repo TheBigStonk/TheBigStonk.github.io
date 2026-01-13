@@ -4,8 +4,6 @@ date = "2023-09-16T00:00:00+13:00"
 draft = false
 +++
 
-## Burp Suite Certified Practitioner Practice Exam Walkthrough
-### 16th September 2023
 It's certainly been a while since I wrote one of these. I have gone through a number of places of work, have found some interesting vulnerabilities in both government and private companies, and have continued to work at improving what I do.
 
 A core area I wish I'd been better at when I had a role titled Penetration Tester is Web Application Security. There are many places to learn about this, and many more to perfect your craft. I'll include a list of what I would consider to be great places to look into. For now though I want to focus on the Burp Suite Certified Practitioner (BSCP) certification, specifically around walking through the practice exam and detailing my methodology for going through it.

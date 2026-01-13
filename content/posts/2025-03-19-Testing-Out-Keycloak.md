@@ -4,8 +4,6 @@ date = "2025-03-19T00:00:00+13:00"
 draft = false
 +++
 
-## Testing out Keycloak
-### 19th March 2025
 I was told by a good friend to check out Keycloak due to making "authentication easy as hell". With the commercialization of good auth on one side (Auth0, Okta) and on the other end poorly implemented auth (think OAuth with improper redirect_uri) I did have a gap in my heart for an opensource, extremely simple IAM solution for complex web applications.
 Enter [github.com/keycloak/keycloak](https://github.com/keycloak/keycloak), analyzing the code and docs, there are a few characteristics worth noting:
 

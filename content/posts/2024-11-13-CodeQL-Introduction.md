@@ -4,9 +4,6 @@ date = "2024-11-13T00:00:00+13:00"
 draft = false
 +++
 
-## CodeQL for SAST - An Introduction
-### 13th November 2024
-### Intro
 As part of a desire to add another tool to my belt in regards to secure code review, I looked to explore CodeQL. Developed by GitHub and first released to the public around 2020, CodeQL is a "Semantic code analysis engine" that allows you to run SQL-like queries for certain code patterns across a large repository to find bugs.
 
 The beauty of this tool is the freemium model where it's all free if you are running this across public repos. If you are a company however, you can't take this for free, you got to get the GitHub advanced security tack-on.

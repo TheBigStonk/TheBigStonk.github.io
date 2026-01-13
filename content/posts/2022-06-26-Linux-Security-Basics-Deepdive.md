@@ -4,7 +4,6 @@ date = "2022-06-26T00:00:00+13:00"
 draft = false
 +++
 
-### Introduction
 Linux is everywhere. Although that is a really obvious statement, it hits home when you realise that there are a small number of people who learn to properly use this wonderful open source environment, and even less so is the amount of people who focus on Linux and then branch out into security considerations and making software to secure and harden this lovely operating system.
 
 With this article I want to provide a small journey for those starting out and want to be part of that small group. Overall the content of this post will follow the format and inspiration of the [LPIC-Linux Essentials Topic 5. Security and File Permissions](!https://learning.lpi.org/en/learning-materials/010-160/5/). The two key areas we will look at are: -*All Linux Machines have users*- Users in Linux and User Administration; and -*Everything is a file*- File Permissions and Management of Access.
